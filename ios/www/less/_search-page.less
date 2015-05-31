@@ -1,0 +1,34 @@
+.brand {
+  width: 120px;
+  height: 70px;
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  border: 2px solid transparent;
+
+  button {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+
+  &.selected {
+    @blue: #00BCD4;
+    border-color: @blue;
+
+    &:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+
+      padding: 0px 4px;
+      content: '✓';
+      background-color: @blue;
+      color: #fff;
+    }
+  }
+}

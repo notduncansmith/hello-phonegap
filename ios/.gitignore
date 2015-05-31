@@ -1,0 +1,4 @@
+node_modules/
+*.xcuserstate
+platforms/ios/*.xcodeproj/
+platforms/ios/cordova/console.log

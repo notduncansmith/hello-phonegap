@@ -1,0 +1,7 @@
+node_modules
+config.json
+log.txt
+.pouch*
+npm-debug.log
+ios/platforms/ios/*.xcodeproj/xcuserdata/
+ios/platforms/ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/

@@ -1,0 +1,21 @@
+{
+  "name": "frillfeed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.coffee -e html,hbs,js,coffee"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "cheerio": "=0.18.0",
+    "lodash": "^3.8.0",
+    "mustache": "^2.0.0",
+    "qs": "^2.4.2",
+    "request": "=2.48.0",
+    "summit": "=0.1.21"
+  }
+}

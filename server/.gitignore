@@ -1,0 +1,5 @@
+node_modules/
+config.json
+log.txt
+.pouch_*
+.config.json
